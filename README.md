@@ -1,8 +1,5 @@
 # Predictive Data Selection: The Data That Predicts Is the Data That Teaches 
-<p align="center">
-    📑 <a href="https://arxiv.org/abs/2503.00808" target="_blank">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🔨 <a href="https://huggingface.co/hkust-nlp/preselect-fasttext-classifier" target="_blank">fastText Classifier</a> &nbsp&nbsp | &nbsp&nbsp 🤗 <a href="https://huggingface.co/datasets/hkust-nlp/PreSelect-100B" target="_blank">Released Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📦 <a href="https://github.com/hkust-nlp/PreSelect" target="_blank">Repo</a>  
-<br>
-</p>
+
 
 ## 🌟Introduction
 <p align="center" width="100%">
@@ -36,10 +33,6 @@ To leverage this insight, we introduce data selection based on data's Predictive
 ## 📦Released Resources
 We release our trained fasttext calssifier and a 100B token filtered high-quality dataset in Huggingface for direct use.
 
-|Name|Type|Huggingface Link|
-|-|-|-|
-|preselect-fasttext-calssifier|Model|[🤗Huggingface](https://huggingface.co/hkust-nlp/preselect-fasttext-classifier)|
-|preselect-100B|Dataset|[🤗Huggingface](https://huggingface.co/datasets/hkust-nlp/PreSelect-100B)|
 
 
 ## Environment Setup
@@ -133,15 +126,7 @@ You can refer [Opencompass](https://github.com/open-compass/opencompass) and [LM
 
 ## 🖊️Citation
 If you find this work helpful, please kindly cite as:
-```
-@article{shum2025predictivedataselectiondata,
-      title={Predictive Data Selection: The Data That Predicts Is the Data That Teaches}, 
-      author={Kashun Shum and Yuzhen Huang and Hongjian Zou and Ding Qi and Yixuan Liao and Xiaoxin Chen and Qian Liu and Junxian He},
-      journal={arXiv preprint arXiv:2503.00808},
-      year={2025},
-      eprint={2503.00808},
-}
-```
+
 
 ## 🤝 Acknowledgement
 Thanks for the open-source of the following projects where some code in this project is cited and modified from them:
